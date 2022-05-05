@@ -38,10 +38,14 @@
 
 <!--- ## Security -->
 <!--- OPTIONAL -->
+<!--- May go here if it is important to highlight security concerns. -->
+<!--- Otherwise, it should be in Extra Sections. -->
+
 
 
 <!--- ## Background -->
 <!--- OPTIONAL -->
+<!--- Explain the motivation and abstract dependencies for this repo -->
 
 ## Install
 
@@ -79,9 +83,7 @@
 <!--- helped with the development of this project -->
 
 ## Contributing
-
 <!--- REQUIRED -->
-
 If you need any help, please log an issue and one of our team will get back to
 you.
 
@@ -93,7 +95,6 @@ this project,
 please [become a sponsor](https://github.com/sponsors/GeekZoneHQ)!
 
 ## License
-
 <!--- REQUIRED -->
 
 - This, and all Geek.Zone code, is licensed under the GNU General Public
