@@ -1,0 +1,13 @@
+---
+name: weepingangel
+on:
+  schedule:
+    - cron: '0 10 * * *'
+jobs:
+  weepingangel:
+    runs-on: ubuntu-latest
+    env:
+      GH_ACCESS_TOKEN: ${{ secrets.GZBOT_GHPAT_WEEPINGANGEL }}
+    steps:
+      - name: Run weepingangel action
+        uses: geekzonehq/reusable-workflows/.github/workflows/eisenhower.yml@main

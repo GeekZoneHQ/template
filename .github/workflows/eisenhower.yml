@@ -1,0 +1,17 @@
+---
+name: Eisenhower
+on:
+  issues:
+    types: [ opened, edited ]
+jobs:
+  eisenhower:
+    runs-on: ubuntu-latest
+    env:
+      GH_ACCESS_TOKEN: ${{ secrets.GZBOT_GHPAT_EISENHOWER }}
+    steps:
+      - name: Run Eisenhower action
+        uses: geekzonehq/reusable-workflows/.github/workflows/eisenhower.yml@main
+  tweet:
+    uses: geekzonehq/reusable-workflows/.github/workflows/tweet.yml@main
+    with:
+      message: "Issue ${{ github.issue.number }} has been prioritized! ${{ github.issue.html_url }}"
