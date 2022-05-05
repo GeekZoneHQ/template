@@ -5,6 +5,7 @@ on:
     - cron: '0 10 * * *'
 jobs:
   weepingangel:
+    if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     env:
       GH_ACCESS_TOKEN: ${{ secrets.GZBOT_GHPAT_WEEPINGANGEL }}

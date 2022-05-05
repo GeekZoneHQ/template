@@ -5,6 +5,7 @@ on:
     types: [ opened, edited ]
 jobs:
   eisenhower:
+    if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     env:
       GH_ACCESS_TOKEN: ${{ secrets.GZBOT_GHPAT_EISENHOWER }}
