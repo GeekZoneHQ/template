@@ -21,7 +21,7 @@ body:
     attributes:
       label: User Story
       description: As a `persona`, I want to `do a thing` so that `I get a benifit`.
-      placeholder: As a cat, I want to sit on a comfy bed so that sleep all day.
+      placeholder: As a cat, I want to sit on a comfy bed so that I can sleep all day.
     validations:
       required: true
   - type: dropdown
