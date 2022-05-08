@@ -17,10 +17,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: feature-description
+    id: user-story
     attributes:
       label: User Story
-      description: As a [who/role?], I want to [what/action?] so that [why/benifit?].
+      description: As a `persona`, I want to `do a thing` so that `get a benifit`.
       placeholder: As a cat, I want to sit on a comfy bed so that sleep all day.
     validations:
       required: true
