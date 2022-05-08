@@ -20,7 +20,7 @@ body:
     id: user-story
     attributes:
       label: User Story
-      description: As a `persona`, I want to `do a thing` so that `get a benifit`.
+      description: As a `persona`, I want to `do a thing` so that `I get a benifit`.
       placeholder: As a cat, I want to sit on a comfy bed so that sleep all day.
     validations:
       required: true
